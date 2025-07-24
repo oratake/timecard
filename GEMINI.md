@@ -1,2 +1,4 @@
-- `.kiro/` 内にKiroというAIエージェントで要件定義したファイルがあるため、これらの要件定義書を念頭に開発を進めてほしい。
-- `.kiro/specs/timecard-service/tasks.md` に定義されている新しいタスクに取り掛かる際、GitHub Issueに同様のタスクがあるかを確認し、ない場合は一度ユーザにIssueを新規作成してよいか確認をする。
+- Base development on the requirement definition files found in the `.kiro/` directory, which were defined by the Kiro AI agent.
+- When starting a new task defined in `.kiro/specs/timecard-service/tasks.md`, use the `gh` command to check for a corresponding GitHub Issue. If no match is found, confirm with the user before proceeding.
+- Keep commits granular. Each commit should represent a single, meaningful unit of work (e.g., a feature addition, a bug fix).
+- All responses to the user must be in Japanese.
